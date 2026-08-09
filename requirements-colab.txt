@@ -1,0 +1,31 @@
+# Colab-specific dependencies
+# Install with: pip install -r requirements-colab.txt
+
+# Core ML/NLP
+sentence-transformers>=2.2.0
+chromadb>=0.4.0
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+bitsandbytes>=0.41.0
+
+# LLM providers (choose based on your API keys)
+openai>=1.0.0
+anthropic>=0.8.0
+huggingface-hub>=0.19.0
+
+# Text processing
+langchain-text-splitters>=0.2.0
+langdetect>=1.0.9
+tiktoken>=0.5.0
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Colab-specific
+google-colab-ssh>=0.1.0
+ipywidgets>=8.0.0

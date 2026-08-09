@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.env
+*.log
+
+# Data
+data/processed/chroma_db/
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+
+# Colab
+.colab/
+.ipynb_checkpoints/
+.DS_Store
