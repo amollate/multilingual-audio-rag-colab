@@ -3,9 +3,15 @@
 import os
 import json
 import re
+import logging
 from pathlib import Path
 from typing import List, Dict, Optional
+import logging
 from datetime import datetime
+
+logger = logging.getLogger(__name__)
+
+logger = logging.getLogger(__name__)
 
 
 class TranscriptProcessor:
